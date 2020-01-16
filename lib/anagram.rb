@@ -4,4 +4,10 @@ class Anagram
   def initialize(word)
     @word = word 
   end
+  
+  def match(words)
+    words.each do |word_possibility|
+      
+    end
+  end
 end
